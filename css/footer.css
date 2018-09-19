@@ -1,0 +1,108 @@
+.rodape{background:url(../imgs/bg-rodape-min.jpg) top center no-repeat; height:500px; margin-top:20px;}
+.footer-sm{background:#024b96; color:#FFF; text-align:center; font-size:13px; padding:20px}
+	.logo-rodape{width:276px; height:140px; display:block; margin-top:32px; margin-left:-20px; padding:0px;}
+		.logo-rodape span{display:none;}
+	.rodape-topo-esquerda{margin:0px; padding:0px;}
+	
+	.footer-tel{font-size:25px; color:#FFF; font-weight:300; margin:25px 0 0 40px;}
+	
+	.menu-footer{margin:30px 0 0 0;}
+		.menu-footer li{    display: table-cell; vertical-align:top; padding-right:10px; }
+			.menu-footer li ul li{    display:block; vertical-align:top; background:url(../imgs/star-rodape-min.png) left center no-repeat; padding: 0 0px 0 20px; margin:5px 0px 5px 10px; }
+	.menu-footer  a{font-size:18px; color:#FFF; font-weight:900; text-transform:uppercase;}
+		.menu-footer  ul li a{font-size:12px; color:#FFF; font-weight:400;}
+		
+	.endereco-footer{font-size:25px; color:#FFF; font-weight:300; margin:25px 0 0 25px;}
+		.btn-mat-footer{color:#000;font-size:18px;font-weight:900;margin: 48px 0 0 35px;display: block;}
+		
+		ul.social-network-footer {
+			list-style: none;
+			display: inline;
+			margin-left:0 !important;
+			margin-right:60px;
+			margin-top:20px;
+			padding: 0;
+		}
+		ul.social-network-footer li {
+			display: inline;
+			margin: 0 5px;
+		}
+		
+		
+		/* footer social icons */
+		.social-network-footer a {
+			background-color:#4d494a;
+		}
+		.social-network-footer a:hover {
+			background-color:#342f2e;
+		}
+		
+		.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+		.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+			color:#fff;
+		}
+		a.socialIcon:hover, .socialHoverClass {
+			color:#44BCDD;
+		}
+		
+		.social-circle-footer li a {
+			display:inline-block;
+			position:relative;
+			margin:0 auto 0 auto;
+			-moz-border-radius:50%;
+			-webkit-border-radius:50%;
+			border-radius:50%;
+			text-align:center;
+			width: 100px;
+			height: 100px;
+			font-size:40px;
+		}
+		.social-circle-footer li i {
+			margin:0;
+			line-height:100px;
+			text-align: center;
+		}
+		
+		.social-circle-footer li a:hover i, .triggeredHover {
+			-moz-transform: rotate(360deg);
+			-webkit-transform: rotate(360deg);
+			-ms--transform: rotate(360deg);
+			transform: rotate(360deg);
+			-webkit-transition: all 0.2s;
+			-moz-transition: all 0.2s;
+			-o-transition: all 0.2s;
+			-ms-transition: all 0.2s;
+			transition: all 0.2s;
+		}
+		.social-circle-footer i {
+			color: #fff;
+			-webkit-transition: all 0.8s;
+			-moz-transition: all 0.8s;
+			-o-transition: all 0.8s;
+			-ms-transition: all 0.8s;
+			transition: all 0.8s;
+		}
+		
+		.direitos-footer{
+			font-size:17px; 
+			color:#FFF;
+			font-weight:400;
+			margin:80px 0 0 0 ;
+			
+		}
+		.btn-topo-footer{
+			display:block;
+			border:1px solid #FFF;
+			font-size:15px; 
+			font-weight:400;
+			padding:10px 30px;
+			color:#FFF;
+			margin:80px 0 0 0 ;
+			border-radius: 5px;
+		   -moz-border-radius: 5px;
+		   -webkit-border-radius: 5px;	
+		}
+		.btn-topo-footer:hover{
+			color:#FFF;
+					
+		}

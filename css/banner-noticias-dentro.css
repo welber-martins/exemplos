@@ -1,0 +1,18 @@
+#banner{width:100%;  background:url(../imgs/bg-generico-min.jpg)  top center no-repeat; height:460px; margin:160px 0px 0px 0px; overflow:hidden;background-size:cover; background-position:top; position:relative;}
+
+#banner-titulo{font-size:20px; color:#FFF; text-transform:upper; text-shadow: 1px 1px 2px black; font-weight:900; text-align: center; margin-top: 150px;}
+#banner-linha{width:149px;  background:url(../imgs/bn-re-4-min.png) top center no-repeat; height:7px; margin:10px auto 10px auto; }
+#banner-data{font-size: 15px; font-weight: 400; color: #fff; text-align: center;}
+
+#banner-sm{margin:160px 0 0 0; min-width:320px;}
+.banner-txt-small{margin-top:0px;}	
+	#banner-sm p{font-size:20px; color:#FFF; text-transform:upper; text-shadow: 1px 1px 2px black; font-weight:900; text-align: center; margin: 100px 0 0 0;}
+		#banner-sm p.banner-txt-small-data{font-size: 15px; font-weight: 400; color: #fff; text-align: center; margin: 0px;}
+
+@media (max-width: 780px) {
+				#banner-sm p{font-size:20px; color:#FFF; text-transform:upper; text-shadow: 1px 1px 2px black; font-weight:900; text-align: center; margin: 30px 0 0 0;}
+			}
+@media (max-width: 350px) {
+				#banner-sm p{font-size:15px; color:#FFF; text-transform:upper; text-shadow: 1px 1px 2px black; font-weight:900; text-align: center; margin: 10px 0 0 0;}
+				#banner-sm p.banner-txt-small-data{font-size: 12px; font-weight: 400; color: #fff; text-align: center; margin: 0px;}
+			}

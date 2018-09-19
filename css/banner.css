@@ -1,0 +1,36 @@
+#banner-home{width:100%; height:690px;margin:160px 0px 0px 0px; overflow: hidden; position: relative;}
+
+	#bannerh-1{width:100%;  background:url(../imgs/banner-1-min.jpg) top center no-repeat; height:690px;  overflow:hidden;background-size:cover; background-position:top; position: absolute;}
+	#bannerh-1-1{width:123px;  background:url(../imgs/T-1-min.png) top center no-repeat; height:105px; margin:150px auto 0px auto; display:none; }
+	#bannerh-1-2{width:843px;  background:url(../imgs/t-2-min.png)top center no-repeat; height:45px; margin:20px auto 0px auto; display:none;}
+	#bannerh-1-3{width:832px;  background:url(../imgs/t-3-min.png) top center no-repeat; height:24px; margin:10px auto 0px auto; display:none;}
+	#bannerh-1-4{width:426px;  background:url(../imgs/T4-min.png) top center no-repeat; height:72px; margin:40px auto 0px auto; display:none;}
+		#bannerh-1-4 a{width:426px; height: 72px; display: block; }
+			#bannerh-1-4 span{display: none;}
+
+	#bannerh-2{width:100%;  background:url(../imgs/banner-2-min.jpg) top center no-repeat; height:690px;  overflow:hidden;background-size:cover; background-position:top; display: none; position: absolute;}
+	#bannerh-2-1{width:126px;  background:url(../imgs/t2-1-min.png) top center no-repeat; height:120px; margin:150px auto 0px auto; display:none; }
+	#bannerh-2-2{width:641px;  background:url(../imgs/t2-2-min.png)top center no-repeat; height:63px; margin:20px auto 0px auto; display:none;}
+	#bannerh-2-3{width:641px;  background:url(../imgs/t2-3-min.png) top center no-repeat; height:23px; margin:10px auto 0px auto; display:none;}
+	#bannerh-2-4{width:461px;  background:url(../imgs/t2-4-min.png) top center no-repeat; height:72px; margin:20px auto 0px auto; display:none;}
+		#bannerh-2-4 a{width:461px; height: 72px; display: block; }
+			#bannerh-2-4 span{display: none;}
+
+	#bannerh-3{width:100%;  background:url(../imgs/B-3-min.jpg) top center no-repeat; height:690px;  overflow:hidden;background-size:cover; background-position:top; display: none; position: absolute;}
+	#bannerh-3-1{width:65px;  background:url(../imgs/icon-ensino-fundamental-min.png) top center no-repeat; height:85px; margin:150px auto 0px auto; display:none; }
+	#bannerh-3-2{width:684px;  background:url(../imgs/titulo-ensino-fundamental-min.png) top center no-repeat; height:45px; margin:20px auto 0px auto; display:none;}
+	#bannerh-3-3{width:558px;  background:url(../imgs/sub-titulo-ensino-fundamental-min.png) top center no-repeat; height:21px; margin:10px auto 0px auto; display:none;}
+	#bannerh-3-4{width:461px;  background:url(../imgs/BTN-3-min.png) top center no-repeat; height:72px; margin:20px auto 0px auto; display:none;}
+		#bannerh-3-4 a{width:461px; height: 72px; display: block; }
+			#bannerh-3-4 span{display: none;}
+
+
+	#banner-sm{margin:160px 0 0 0; min-width:320px;}
+	.banner-txt-small{margin-top:40px;}	
+
+	@media (max-width: 780px) {
+					.banner-txt-small{margin-top:10px;}	
+				}
+	@media (max-width: 350px) {
+					.banner-txt-small{margin-top:3px;}	
+				}

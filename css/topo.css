@@ -1,0 +1,111 @@
+body{font-family: 'Lato', sans-serif;  font-weight: 400; background:url(../imgs/bg-min.jpg) top center repeat-y;}
+a:hover{text-decoration:none}		
+			header{position:absolute; width:100%; height:164px; top:0px; z-index:10;}
+			.container-fluid{min-width:1210px;}
+			.container{min-width:1170px;}
+					
+			.topo-1{height:55px; background:#024b96; }
+				.topo-1-lista li{font-size:13px; color:#FFF; letter-spacing:0px; margin-left:20px; margin-top:10px;}
+					.topo-1-lista li span{ opacity: 0.5;  filter: alpha(opacity=50);}
+					.topo-1-lista li a{font-size:13px; color:#FFF;}
+						.topo-1-lista li a:hover{font-size:13px; color:#FFF; text-decoration:none;}	
+							.topo-1-lista li ul li a{color:#024b96;}
+								.topo-1-lista li ul li a:hover{color:#024b96;}
+								.topo-1-lista li ul li{margin:15px 0px;}
+								
+				ul.social-network {	list-style: none;display: inline;margin-left:0 !important;padding: 0;}
+				ul.social-network li {display: inline; margin: 0px 5px; }
+				
+					.social-circle li a {font-size:28px; margin-right: 10px;}
+						.social-circle li a:hover {color:#FFF;}
+					.social-circle li i {margin:0;line-height:55px;	text-align: center;}	
+					
+			.topo-2{height:109px; background:url(../imgs/bg-topo-min.png) repeat-x; }
+				.topo-2-logo{margin-top:10px;}
+				.menu-topo{height:70px; margin:20px 0 0 0; padding:0px;}
+					.menu-topo li{margin:0px 0px 0px -2px; padding:0px;  border-right:1px solid #EAEAEA; }
+						 .menu-topo li.menu-topo-divider{width:1px; height:70px; background:#EAEAEA;}
+						 
+			
+						 	
+							
+							
+							
+							
+							.menu-topo li a{display:block; height:70px; background:url(../imgs/menu-topo-min.png) 0 0 no-repeat; margin:0px; padding:0px;}
+						
+								.menu-topo li a span{display:none; margin:0px;}
+								
+								.menu-topo li a#menu-home{width:85px; background-position:0 0; margin:0px;}
+								.menu-topo li a#menu-home:hover{width:85px; background-position:0 -70px;}
+								
+								.menu-topo li a#menu-escola{width:111px; background-position:-90px 0; margin:0px}
+								.menu-topo li a#menu-escola:hover{width:111px; background-position:-90px -70px;}
+								.menu-topo li a#menu-escola-select{width:111px; background-position:-90px -70px;}
+								
+								.menu-topo li a#menu-ensino{width: 148px;background-position:-208px 0;margin:0px;}
+								.menu-topo li a#menu-ensino:hover{width:148px; background-position:-208px -70px;}
+								.menu-topo li a#menu-ensino-select{width:148px; background-position:-208px -70px;}
+								
+								.menu-topo li a#menu-noticias{width:100px; background-position:-358px 0; margin:0px}
+								.menu-topo li a#menu-noticias:hover{width:100px; background-position:-358px -70px;}
+								
+								.menu-topo li a#menu-tv{width:154px; background-position:-467px 0; margin:0px}
+								.menu-topo li a#menu-tv:hover{width:154px; background-position:-467px -70px;}
+								
+								.menu-topo li a#menu-contatos{width:107px; background-position:-625px 0; margin:0px}
+								.menu-topo li a#menu-contatos:hover{width:107px; background-position:-625px -70px;}
+								.menu-topo li a#menu-contatos-select{width:107px; background-position:-625px -70px;}
+								
+								.menu-topo li a#menu-matriculas{width:122px; background-position:-745px 0; margin:0px}
+								.menu-topo li a#menu-matriculas:hover{width:122px; background-position:-745px -70px;}
+					.menu-mobile a{ background:#024b96; margin:40px 0 0 0;}
+						.menu-mobile  ul li a{background:#FFF;color:#024b96; margin:0px; display: block; padding: 10px; border-bottom: 1px solid #EAEAEA;}
+							.menu-mobile  ul li a:hover{color:#024b96; margin:0px;}
+						
+						
+			
+				.nav-interna-top li{margin-top:20px;  vertical-align:middle; color:#FFF; font-size:15px;}
+					.nav-interna-top li a{vertical-align:middle; color:#FFF; font-size:15px; display:block;}
+						.nav-interna-top li a:hover{color:#FFF; }
+							.nav-interna-top li a.nav-interna-top-marcada{font-size:20px; font-weight:900;}
+
+				.menu-contatos{background: url(../imgs/bg-menu-fale-min.png) center center no-repeat; width: 657px; height: 241px; position: absolute; left: 89px; top: 84px;}
+				.menu-ensino{background: url(../imgs/bg-menu-ensino-min.png) center center no-repeat; width: 657px; height: 241px; position: absolute; left: 0px; top: 84px;}
+				.menu-escola{background: url(../imgs/bg-menu-escola-min.png) center center no-repeat; width: 657px; height: 241px; position: absolute; left: 0px; top: 84px;}
+				
+				.menu-topo li ul {padding-top: 40px; display: none;}
+				.menu-topo li ul.menu-escola {padding-top:40px; display: none;}
+				.menu-topo li ul a{background: none; font-size: 20px; height: auto; width: auto; color: #024b96; text-transform: uppercase; font-weight: 800; display: block;}
+					.menu-topo li ul a span{display: block; font-size: 15px; height: auto; width: auto; color: #c2c2c2; text-transform: uppercase; font-weight: 400;}
+			
+					.sub-menu{ border-bottom: 1px solid #c2c2c2; width: 360px; float: right; padding-bottom: 10px; margin-bottom: 30px; margin-right: 40px; }
+					.sub-menu2{ width: 360px; float: right; padding-bottom: 10px; margin-bottom: 10px; margin-right: 20px; padding-left: 70px;}
+					.menu-topo .sub-menu2 a{background: none; font-size: 17px; height: auto; width: auto; color: #024b96; text-transform: uppercase; font-weight: 800; display: block;}
+
+
+			.btn-acessoportal a{ display: block;padding: 20px; background: #EAEAEA; font-size: 18px; font-weight: 700; color: #024b96; opacity: 0.6; margin: 10px 0px}
+				.btn-acessoportal a:hover{opacity: 1;}
+				.btn-acessoportal a span{margin-right: 20px;}
+
+			@media (max-width: 980px) {				
+				
+				.container-fluid{min-width:320px;}
+				.container{min-width:300px;}
+				.topo-1-lista li{font-size:12px; color:#FFF; margin-top:20px;}
+					.topo-1-lista li a{font-size:12px; color:#FFF;}
+						.topo-1-lista li a:hover{font-size:12px; color:#FFF; text-decoration:none;}
+				
+			}
+			@media (max-width: 400px) {
+				.topo-2-logo{margin-top:20px;}
+				.menu-mobile a{margin:40px 0 0 0;}
+				.btn-acessoportal a{font-size: 13px;}
+				.btn-acessoportal a span{margin-right: 5px;}
+			}
+
+			#exampleModalCont .modal-title{font-size: 18px; font-weight: 900; color: #024b96; }
+			#exampleModalCont .modal-body{font-size: 20px; font-weight: 300; color: #000; overflow: hidden; }
+				#exampleModalCont .modal-body p{font-size: 20px; font-weight: 300; color: #000; }
+				#exampleModalCont .modal-body li a{font-size: 18px; font-weight: 400; color: #024b96; display: block; padding: 10px; background: #EAEAEA;}
+				#exampleModalCont .lista-material li{padding: 10px;}

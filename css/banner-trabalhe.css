@@ -1,0 +1,14 @@
+#banner{width:100%;  background:url(../imgs/bg-generico-2-min.jpg)  top center no-repeat; height:564px; margin:160px 0px 0px 0px; overflow:hidden;background-size:cover; background-position:top; position:relative;}
+#banner-1{width:90px;  background:url(../imgs/icon-trabalhe-min.png) top center no-repeat; height:73px; margin:50px auto 0px auto; display:none; }
+#banner-2{width:610px;  background:url(../imgs/titulo-trabalhe-min.png)top center no-repeat; height:45px; margin:20px auto 0px auto; display:none;}
+#banner-3{width:1000px;  background:url(../imgs/sub-titulo-trabalhe-min.png) top center no-repeat; height:25px; margin:2px auto 0px auto; display:none;}
+#banner-4{width:149px;  background:url(../imgs/bn-re-4-min.png) top center no-repeat; height:7px; margin:10px auto 0px auto; display:none;}
+#banner-sm{margin:160px 0 0 0; min-width:320px;}
+.banner-txt-small{margin-top:40px;}	
+
+@media (max-width: 780px) {
+				.banner-txt-small{margin-top:10px;}	
+			}
+@media (max-width: 350px) {
+				.banner-txt-small{margin-top:3px;}	
+			}

@@ -1,0 +1,16 @@
+#banner{width:100%;  background:url(../imgs/bg-nossa-historia-min.jpg)  top center no-repeat; height:623px; margin:160px 0px 0px 0px; overflow:hidden;background-size:cover; background-position:top; position:relative;}
+#banner-1{width:86px;  background:url(../imgs/icons-play-min.png) top center no-repeat; height:86px; margin:120px auto 0px auto; display:none; }
+	#banner-1 a{width: 86px; height: 81px; display: block;}
+		#banner-1 a span{display: none;}
+#banner-2{width:473px;  background:url(../imgs/titulo-nossa-historia-min.png) top center no-repeat; height:63px; margin:00px auto 0px auto; display:none;}
+#banner-3{width:389px;  background:url(../imgs/sib-titulo-historia-min.png) top center no-repeat; height:26px; margin:2px auto 0px auto; display:none;}
+#banner-4{width:149px;  background:url(../imgs/bn-re-4-min.png) top center no-repeat; height:7px; margin:10px auto 0px auto; display:none;}
+#banner-sm{margin:160px 0 0 0; min-width:320px;}
+.banner-txt-small{margin-top:40px;}	
+
+@media (max-width: 780px) {
+				.banner-txt-small{margin-top:10px;}	
+			}
+@media (max-width: 350px) {
+				.banner-txt-small{margin-top:3px;}	
+			}

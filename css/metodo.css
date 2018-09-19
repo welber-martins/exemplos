@@ -1,0 +1,14 @@
+.menu-a-escola{ top:480px;}
+.menu-a-escola ul{width:820px; margin:0px auto;}
+.historia-interna{padding:20px 0 0 0 ;}
+.historia-interna p{line-height:40px; font-size:25px; color:#000; font-weight:300; text-align:justify;}
+.galeria-historia{margin-top:-100px; margin-right:0px;}
+
+@media (max-width: 980px) {
+				.bg-interna-branca{margin-top:0px;}
+				.historia-interna p{line-height:30px; font-size:17px; color:#000; font-weight:400; text-align:justify;}
+					.bg-interna-branca a{text-transform:uppercase; color:#024b96; font-size:17px; font-weight:900; margin-right:50px;}
+			}
+@media (max-width: 350px) {
+				.banner-txt-small{margin-top:3px;}	
+			}

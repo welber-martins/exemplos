@@ -1,0 +1,26 @@
+
+.titulo-mais-infos{margin-top:-240px;}
+.bg-interna-branca{margin-top:0px;}
+	.bg-interna-branca p{line-height:25px; font-size:20px; color:#000; font-weight:300; text-align:justify;}
+
+	.lista-infos-mat li{margin-bottom: 20px;}
+	.titulo-dif-mat{margin: 50px 0px;}
+
+
+	.holde-btn-titulo-dif a{display: block; width: 100%; background: #d2d2d2; font-size: 20px; font-weight: 900; color:#024b96; padding: 20px 30px; text-transform: uppercase; }
+		.holde-btn-titulo-dif a span:first-child{ margin-right: 20px; margin-top: -3px;}
+	.holde-btn-content-dif{padding: 20px; background: #FFF; line-height:25px; font-size:20px; color:#000; font-weight:300; text-align:justify; display: none;}
+	.lista-dif-mat li {margin: 20px 0px;}
+
+
+@media (max-width: 980px) {
+				.holde-btn-titulo-dif a{font-size: 16px; font-weight: 800; color:#024b96; padding: 20px; }
+				.bg-interna-branca{margin-top:0px;}
+				.bg-interna-branca p{line-height:30px; font-size:17px; color:#000; font-weight:400; text-align:justify;}
+					
+			}
+@media (max-width: 400px) {				
+				.bg-interna-branca p.contatos-fone a{ font-size:30px; color:#024b96; font-weight:900; margin: 20px auto}
+				.titulo-dif-mat{margin: 30px 0px;}
+				.holde-btn-titulo-dif a{font-size: 13px; font-weight: 800; color:#024b96; padding: 10px; }
+			}

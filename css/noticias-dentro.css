@@ -1,0 +1,63 @@
+.noticia-dentro-textos{background: #FFF; padding: 20px; margin-top: -70px;} 
+	.noticia-dentro-textos p{line-height:35px; font-size:22px; color:#000; font-weight:300; text-align:justify;  }
+
+
+	.lista-cabecalho{font-size:20px; font-weight:900; text-transform:uppercase; color:#024b96; letter-spacing:-0.5px;   }
+		.lista-cabecalho li.li-topo-marker{width:10px; height:17px; background-color:#024b96; margin-top:14px; margin-left:5px; margin-right:-5px;  }	
+
+	.ul-noticias li{background:url(../imgs/bg-not-min.png) center right ; width:345px; height:111px; padding:10px 30px 5px 10px}
+	.not-img{margin-right:4px;}
+		.ul-noticias li a {display:block; width:100%; height:100%;}
+		.ul-noticias li a span{font-size:13px; color:#000; font-weight:700;}
+			.ul-noticias li a p{font-size:18px; color:#000; font-weight:300; line-height:18px;}
+			.ul-noticias li a:hover{text-decoration:none}
+
+
+		.noticia-dentro-mais ul.social-network-footer {
+			list-style: none;
+			display: inline;
+			margin-left:0 !important;
+			margin-right:0px;
+			margin-top:10px;
+			padding: 0;
+		}
+		ul.social-network-footer li {
+			display: inline;
+			margin: 0 5px;
+		}
+		
+		
+		/* footer social icons */
+		.noticia-dentro-mais .social-network-footer a {
+			background-color:#024b96;
+		}
+		.social-network-footer a:hover {
+			background-color:#032f5d;
+		}
+		
+		.noticia-dentro-mais .social-circle-footer li a {
+			display:inline-block;
+			position:relative;
+			margin:0 auto 0 auto;
+			-moz-border-radius:50%;
+			-webkit-border-radius:50%;
+			border-radius:50%;
+			text-align:center;
+			width: 50px;
+			height: 50px;
+			font-size:20px;
+		}
+		.noticia-dentro-mais .social-circle-footer li i {
+			margin:0;
+			line-height:50px;
+			text-align: center;
+		}
+
+
+@media (max-width: 980px) {
+	.noticia-dentro-textos{background: #FFF; padding: 20px; margin-top: -10px;} 
+	.noticia-dentro-textos p{line-height:30px; font-size:17px; color:#000; font-weight:400; text-align:justify;}
+}
+@media (max-width: 350px) {
+				.banner-txt-small{margin-top:3px;}	
+}

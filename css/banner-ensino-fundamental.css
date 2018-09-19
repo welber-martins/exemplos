@@ -1,0 +1,36 @@
+#banner{width:100%;  background:url(../imgs/bg-ensino-fundamental-min.jpg) top center no-repeat; height:1062px; margin:160px 0px 0px 0px; overflow:hidden;background-size:cover; background-position:top; position:relative;}
+#banner-1{width:65px;  background:url(../imgs/icon-ensino-fundamental-min.png) top center no-repeat; height:85px; margin:80px auto 0px auto; display:none; }
+#banner-2{width:684px;  background:url(../imgs/titulo-ensino-fundamental-min.png) top center no-repeat; height:45px; margin:20px auto 0px auto; display:none;}
+#banner-3{width:558px;  background:url(../imgs/sub-titulo-ensino-fundamental-min.png) top center no-repeat; height:21px; margin:10px auto 0px auto; display:none;}
+#banner-4{width:149px;  background:url(../imgs/bn-re-4-min.png) top center no-repeat; height:7px; margin:10px auto 0px auto; display:none;}
+#banner-sm{margin:160px 0 0 0; min-width:320px;}
+.infos-ensino{font-size:20px; color:#FFF; text-transform:upper; text-shadow: 1px 1px 2px black; font-weight:900;position:absolute; top:400px; left:0px; right:0px; text-transform:uppercase; display: none;}
+	.infos-ensino ul li{ margin:20px auto; overflow:hidden;}
+		.infos-ensino ul li span{margin-right:10px; }
+		.infos-ensino li .infos-ensino-1{width:20%; overflow:hidden;}
+		.infos-ensino li .infos-ensino-2{width:32%; overflow:hidden;}
+			
+.infos-ensino-sm{font-size:15px; color:#FFF; text-transform:upper; text-shadow: 1px 1px 2px black; font-weight:900; text-transform:uppercase; margin-top:50px;}
+	.infos-ensino-sm ul li span{margin-right:10px;}
+	.infos-ensino-sm li{margin:10px auto; overflow:hidden;}
+		.infos-ensino-sm li .infos-ensino-1{width:30%; overflow:hidden;}
+		.infos-ensino-sm li .infos-ensino-2{width:40%; overflow:hidden;}
+
+
+.banner-txt-small{margin-top:40px;}	
+
+@media (max-width: 780px) {
+				.banner-txt-small{margin-top:10px;}	
+			}
+@media (max-width: 500px) {
+				
+				.infos-ensino-sm{font-size:12px; color:#FFF; text-transform:upper; text-shadow: 1px 1px 2px black; font-weight:900; text-transform:uppercase; margin-top:10px;}
+				.infos-ensino-sm li{margin:5px auto;}
+				.infos-ensino-sm li .infos-ensino-1{width:50%; overflow:hidden;}
+				.infos-ensino-sm li .infos-ensino-2{width:100%; overflow:hidden;}
+			}
+
+@media (max-width: 350px) {
+				.banner-txt-small{margin-top:3px;}	
+				.
+			}

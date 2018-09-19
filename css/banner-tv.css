@@ -1,0 +1,11 @@
+#banner{width:100%;  background:url(../imgs/bg-video-min.jpg)  top center no-repeat; height:613px; margin:160px 0px 0px 0px; overflow:hidden;background-size:cover; background-position:top; position:relative;}
+
+#banner-sm{margin:160px 0 0 0; min-width:320px;}
+.banner-txt-small{margin-top:40px;}	
+
+@media (max-width: 780px) {
+				.banner-txt-small{margin-top:0px;}	
+			}
+@media (max-width: 350px) {
+				.banner-txt-small{margin-top:0px;}	
+			}

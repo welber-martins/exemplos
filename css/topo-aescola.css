@@ -1,0 +1,14 @@
+.menu-a-escola{position:absolute; top:350px; left:0px; right:0px; display: none;}
+	.menu-a-escola ul{width:770px; margin:0px auto;}
+		.menu-a-escola ul li{margin:0px 30px 0px 0px;}
+.nav-interna-aescola li a{font-size:20px; color:#FFF; text-transform:upper; text-shadow: 1px 1px 2px black; font-weight:900; }
+
+
+	#aescola-info-sm{ margin:0px auto 0px auto; min-width:320px;}
+	#aescola-info-sm a{width:100%; background:#FFF; color:#024b96; height:50px; line-height:50px; padding:0px 20px; border:1px solid #024b96; font-size:15px; display:block; margin:-20px auto 0px auto; font-weight:700;}
+		#aescola-info-sm a span{margin:22px 0 0 0;}
+		#aescola-info-sm a:hover{text-decoration:none;}
+		#aescola-info-sm a:active{text-decoration:none;}
+			#aescola-info-sm ul {width:92%; margin-left:20px;}
+			#aescola-info-sm ul li a{margin:0px; border:0px; padding:0px 20px; font-size:13px;}
+		

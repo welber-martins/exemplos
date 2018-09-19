@@ -1,0 +1,14 @@
+#banner{width:100%;  background:url(../imgs/bg-generico-min.jpg)  top center no-repeat; height:460px; margin:160px 0px 0px 0px; overflow:hidden;background-size:cover; background-position:top; position:relative;}
+#banner-1{width:65px;  background:url(../imgs/icon-noticias-min.png) top center no-repeat; height:84px; margin:50px auto 0px auto; display:none; }
+#banner-2{width:502px;  background:url(../imgs/titulo-noticias-min.png)top center no-repeat; height:62px; margin:0px auto 0px auto; display:none;}
+#banner-3{width:731px;  background:url(../imgs/sub-titulo-noticias-min.png) top center no-repeat; height:21px; margin:2px auto 0px auto; display:none;}
+#banner-4{width:149px;  background:url(../imgs/bn-re-4-min.png) top center no-repeat; height:7px; margin:10px auto 0px auto; display:none;}
+#banner-sm{margin:160px 0 0 0; min-width:320px;}
+.banner-txt-small{margin-top:40px;}	
+
+@media (max-width: 780px) {
+				.banner-txt-small{margin-top:10px;}	
+			}
+@media (max-width: 350px) {
+				.banner-txt-small{margin-top:3px;}	
+			}
